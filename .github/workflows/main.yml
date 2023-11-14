@@ -13,7 +13,7 @@ jobs:
         run: python3 main.py
         
       - name: Crear imagen docker
-        run: docker build -t NagoreGomez/holamundo .
+        run: docker build -t nagoregomez/holamundo .
 
       - name: Probar imagen
-        run: docker run NagoreGomez/holamundo
+        run: docker run nagoregomez/holamundo
